@@ -10,6 +10,7 @@ app.controller('testangular', ($scope) => {
     } else {
       $scope.showIndex = false;
       $scope.showSearch = false;
+      alert('No file / Invalid file uploaded')
     }
   };
 
